@@ -1,0 +1,39 @@
+.list {
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    position: relative;
+    float:right
+  }
+
+.textoverlay {
+  text-align: left;
+  color: #646b76;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  transform: translateY(-50%);
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  right: 50%;
+  top: 20%;
+  left: 0;
+}
+
+
+.bg-img {
+    /*background-image: url("../taxi_service_03.jpg");*/
+    
+    width: 100%;
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
